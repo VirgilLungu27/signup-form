@@ -104,3 +104,25 @@
 .account h4 {
     text-align: center;
 }
+
+@media (max-width: 1540px){
+    * {
+    overflow: visible;
+  }
+   .image img {
+     width: 35%;
+     height: 50%;
+  }
+
+   .odin {
+     left: 0%;
+  }
+
+   .intro, .hero {
+     right: 0%;
+  }
+
+   .hero {
+     overflow: visible;
+  }
+}
