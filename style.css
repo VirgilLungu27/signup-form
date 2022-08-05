@@ -30,5 +30,15 @@
     display: block;
     position: absolute;
     top: 5%;
-    left: 7%;
+    left: 7%;   
+}
+
+.intro {
+    display: block;
+    position: absolute;
+    top: 14%;
+    right: 5%;
+    left: 40%;
+    max-width: 60%;
+    text-align: center;
 }
