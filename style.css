@@ -4,13 +4,16 @@
     font-family: 'Work Sans', 'Ubuntu', sans-serif;
     display: block;
     overflow: hidden;
-    max-height: 90%;
+    max-height: 100%;
 }
 
 .image {
     display: block;  
     width: 640px;
-    height: 920px;
+    height: 960px;
+    position: absolute;
+    top: 0%;
+    left: 0%;
 }
 
 .image img {
@@ -18,6 +21,8 @@
 }
 
 .image h5 {
-    text-align: center;
-    height: ;
+    position: absolute;
+    bottom: 0px;
+    right: 40px;
+    color: whitesmoke;
 }
