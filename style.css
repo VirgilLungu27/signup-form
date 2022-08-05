@@ -9,20 +9,26 @@
 
 .image {
     display: block;  
-    width: 640px;
-    height: 960px;
     position: absolute;
     top: 0%;
     left: 0%;
 }
 
 .image img {
-    
+    width: 640px;
+    height: 960px;
 }
 
 .image h5 {
     position: absolute;
     bottom: 0px;
-    right: 40px;
+    right: 10px;
     color: whitesmoke;
+}
+
+.odin {
+    display: block;
+    position: absolute;
+    top: 5%;
+    left: 7%;
 }
