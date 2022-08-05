@@ -52,3 +52,12 @@
     left: 40%;
     max-width: 90%;
 }
+
+.account {
+    display: block;
+    position: absolute;
+    top: 70%;
+    right: 5%;
+    left: 40%;
+    max-width: 90%;
+}
