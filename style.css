@@ -53,11 +53,54 @@
     max-width: 90%;
 }
 
+.hero h2 {
+    text-align: center;
+}
+
+.hero form {
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero form input {
+    padding: 5px;
+    margin: 5px;
+    border: 1px solid greenyellow;
+}
+
+.hero form fieldset input:hover {
+    border: 2px solid green;
+    cursor: pointer;
+}
+
 .account {
-    display: block;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;   
     position: absolute;
-    top: 70%;
+    top: 80%;
     right: 5%;
     left: 40%;
     max-width: 90%;
+}
+
+.account button {
+    border-radius: 16px;
+    width: 240px;
+    height: 80px;
+    background-image: linear-gradient(green, rgba(172, 255, 47, 0.23));
+    font-family: inherit;
+    font-size: 21px;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.account button:hover {
+    cursor: pointer;
+}
+
+.account h4 {
+    text-align: center;
 }
